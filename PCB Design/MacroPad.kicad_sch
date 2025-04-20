@@ -8103,7 +8103,7 @@
 		)
 		(uuid "d87241d8-dd0e-4f9b-bf8b-ffb1aeb67aa5")
 	)
-	(hierarchical_label "LED_0_DIN"
+	(hierarchical_label "LED0_DIN"
 		(shape input)
 		(at 377.19 109.22 0)
 		(effects
