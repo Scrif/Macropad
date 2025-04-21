@@ -1810,12 +1810,6 @@
 		(uuid "ca9f118f-473a-414a-8fd4-ff0378abaf00")
 	)
 	(junction
-		(at 16.51 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0263dc37-d725-42c0-a4bc-b0ac5e788cc3")
-	)
-	(junction
 		(at 151.13 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1982,6 +1976,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b130515-a92d-402a-9135-e2eec0086783")
+	)
+	(junction
+		(at 48.26 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ff4b5bc-d8a2-4ea2-8d74-f2caa262c242")
 	)
 	(junction
 		(at 92.71 137.16)
@@ -4673,7 +4673,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
 			(at 262.89 130.81 0)
 			(effects
 				(font
@@ -4741,7 +4741,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Sxxxx"
 			(at 59.69 92.964 0)
 			(effects
 				(font
@@ -4953,7 +4953,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 91.44 128.27 0)
 			(effects
 				(font
@@ -5021,7 +5021,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
 			(at 262.89 83.82 0)
 			(effects
 				(font
@@ -5163,7 +5163,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 72.39 167.64 0)
 			(effects
 				(font
@@ -5290,7 +5290,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad_MP"
+		(property "Value" "MountingHole_Pad"
 			(at 139.7 99.0599 0)
 			(effects
 				(font
@@ -5318,7 +5318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection as pad named MP"
+		(property "Description" "Mounting Hole with connection"
 			(at 137.16 99.06 0)
 			(effects
 				(font
@@ -5647,7 +5647,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
 			(at 201.93 83.82 0)
 			(effects
 				(font
@@ -5850,7 +5850,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 91.44 172.72 0)
 			(effects
 				(font
@@ -6101,7 +6101,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 16.51 20.32 0)
+		(at 48.26 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6110,7 +6110,7 @@
 		(fields_autoplaced yes)
 		(uuid "33b6766d-8dd6-4cac-8cd1-13b0ac68d7a7")
 		(property "Reference" "#PWR048"
-			(at 16.51 24.13 0)
+			(at 48.26 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6119,7 +6119,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 16.51 15.24 0)
+			(at 48.26 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6127,7 +6127,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 16.51 20.32 0)
+			(at 48.26 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6136,7 +6136,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 16.51 20.32 0)
+			(at 48.26 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6145,7 +6145,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 16.51 20.32 0)
+			(at 48.26 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6190,7 +6190,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 87.63 137.16 0)
 			(effects
 				(font
@@ -6326,7 +6326,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 218.44 46.99 0)
 			(effects
 				(font
@@ -6396,7 +6396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 99.06 187.96 0)
 			(effects
 				(font
@@ -6810,7 +6810,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 92.71 143.51 0)
 			(effects
 				(font
@@ -6955,7 +6955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 133.35 46.99 0)
 			(effects
 				(font
@@ -7024,7 +7024,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 20.32 177.8 0)
 			(effects
 				(font
@@ -7093,7 +7093,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 92.71 97.79 0)
 			(effects
 				(font
@@ -7160,7 +7160,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 81.28 123.19 0)
 			(effects
 				(font
@@ -7504,7 +7504,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 72.39 123.19 0)
 			(effects
 				(font
@@ -7770,7 +7770,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
 			(at 232.41 83.82 0)
 			(effects
 				(font
@@ -7840,7 +7840,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 99.06 97.79 0)
 			(effects
 				(font
@@ -7910,7 +7910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 190.5 46.99 0)
 			(effects
 				(font
@@ -7978,7 +7978,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
 			(at 201.93 130.81 0)
 			(effects
 				(font
@@ -8047,7 +8047,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 20.32 87.63 0)
 			(effects
 				(font
@@ -8115,7 +8115,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
 			(at 262.89 109.22 0)
 			(effects
 				(font
@@ -8384,7 +8384,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 87.63 91.44 0)
 			(effects
 				(font
@@ -8585,7 +8585,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 87.63 181.61 0)
 			(effects
 				(font
@@ -8719,7 +8719,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
 			(at 201.93 106.68 0)
 			(effects
 				(font
@@ -8855,7 +8855,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 16.51 29.21 0)
 			(effects
 				(font
@@ -9269,7 +9269,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 81.28 167.64 0)
 			(effects
 				(font
@@ -9536,7 +9536,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 20.32 132.08 0)
 			(effects
 				(font
@@ -9603,7 +9603,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 72.39 77.47 0)
 			(effects
 				(font
@@ -9736,7 +9736,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
 			(at 232.41 130.81 0)
 			(effects
 				(font
@@ -9806,7 +9806,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 245.11 46.99 0)
 			(effects
 				(font
@@ -9876,7 +9876,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 48.26 46.99 0)
 			(effects
 				(font
@@ -10091,7 +10091,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 105.41 46.99 0)
 			(effects
 				(font
@@ -10161,7 +10161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 77.47 46.99 0)
 			(effects
 				(font
@@ -10429,7 +10429,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Sxxxx"
 			(at 59.69 138.684 0)
 			(effects
 				(font
@@ -10505,7 +10505,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 91.44 82.55 0)
 			(effects
 				(font
@@ -10645,7 +10645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 273.05 46.99 0)
 			(effects
 				(font
@@ -10985,7 +10985,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Kailh_PG1353_Hotswap:Kailh-PG1353-Hotswap-1U"
 			(at 232.41 109.22 0)
 			(effects
 				(font
@@ -11053,7 +11053,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Sxxxx"
 			(at 59.69 183.134 0)
 			(effects
 				(font
@@ -11106,7 +11106,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 16.51 22.86 180)
+		(at 48.26 22.86 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11115,7 +11115,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9400ec3-aedd-437a-a025-39e64df22d31")
 		(property "Reference" "R25"
-			(at 19.05 21.5899 0)
+			(at 50.8 21.5899 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -11123,8 +11123,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100M"
-			(at 19.05 24.1299 0)
+		(property "Value" "100m"
+			(at 50.8 24.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11132,8 +11132,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 16.51 22.86 0)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 48.26 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11142,7 +11142,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 16.51 22.86 0)
+			(at 48.26 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11151,7 +11151,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 16.51 22.86 0)
+			(at 48.26 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11272,7 +11272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 162.56 46.99 0)
 			(effects
 				(font
@@ -11342,7 +11342,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 99.06 143.51 0)
 			(effects
 				(font
@@ -11475,7 +11475,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 81.28 77.47 0)
 			(effects
 				(font
@@ -11544,7 +11544,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 92.71 187.96 0)
 			(effects
 				(font
