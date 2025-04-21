@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "46a42d24-c9ec-4483-8b01-bc7ec81f764e")
 	(paper "A4")
+	(title_block
+		(title "MacroPad")
+		(date "2025-04-20")
+		(rev "A")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers
@@ -5232,7 +5237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
 			(at 163.83 137.16 0)
 			(effects
 				(font
@@ -5300,7 +5305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
 			(at 137.16 99.06 0)
 			(effects
 				(font
@@ -6744,7 +6749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
 			(at 163.83 99.06 0)
 			(effects
 				(font
@@ -8455,7 +8460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
 			(at 146.05 99.06 0)
 			(effects
 				(font
@@ -8654,7 +8659,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
 			(at 139.7 137.16 0)
 			(effects
 				(font
@@ -8994,7 +8999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
 			(at 163.83 118.11 0)
 			(effects
 				(font
@@ -9470,7 +9475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
 			(at 139.7 118.11 0)
 			(effects
 				(font
@@ -10232,7 +10237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
 			(at 154.94 99.06 0)
 			(effects
 				(font
